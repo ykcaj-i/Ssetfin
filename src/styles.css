@@ -1,0 +1,111 @@
+:root{
+    --skyblue: #74bddf; 
+    --lightBlack: #001e30;
+    --shadePurple: rgb(89, 57, 141);
+    --deepblue: rgb(88, 226, 236);
+    --wizardblue: rgba(117, 76, 192, 0.829);
+    --lavender: rgb(90, 103, 223);
+    --ssetfish: rgba(101, 73, 175, 0.829);
+    --numbers:  rgb(98, 40, 116);
+}
+
+*{font-family: 'inconsolata'; color: var(--wizardblue);}
+
+.title{text-align: center; 
+    .titleBackground{ 
+        font-family: 'unica one' !important;
+        color: var(--ssetfish);
+        cursor: pointer;
+        font-weight: 500; 
+        border-radius: 25px;
+        
+    }
+}
+button{
+    text-decoration: none;
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+body{background-color: var(--lightBlack);
+}
+ul{list-style-type: none; font-family: 'courier'; text-align: left; p{ font-size: 80%; font-weight:400; color: var(--ssetfish);}}
+h3{
+    background-color: rgba(19, 1, 22, 0.596);
+    border-radius: 5px;
+    color: var(--ssetfish);
+    text-align: center;
+}
+.parent{display: flex; justify-content: center;}
+    
+  .navbar{
+    display: flex;
+    justify-content: center;
+  } 
+  .navItem{
+    margin: 1em;
+  }
+.hr0{
+    border: dashed 1px rgb(25, 0, 48);
+}
+
+#calculatedResult{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto ;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+.result{
+    text-align: center;
+    color: var(--deepblue);
+    padding: 1px;
+}
+.numbers{
+    color: var(--numbers) !important;
+}
+.year{
+    color: var(--wizardblue);
+    background-color: rgba(22, 1, 10, 0.596);
+    font-family: 'inconsolata';
+    padding-left: .25em; padding-right: .25em;
+    border-radius: 15px;
+    padding-bottom: .15em;
+    padding-bottom: 1px;
+
+}
+.fullYear{color: rgb(105, 186, 201);}
+.count{color: rgb(86, 186, 216);}   
+
+
+    
+
+.child{margin: 2px;}
+
+
+.child1{
+    padding: 1em;
+    text-align: left;
+    background-color:  transparent;
+    border-radius: 10px;
+    margin: 1px;
+}
+.child2{
+    padding: 1em;
+    font-size: 80%;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+.child3{
+
+}
+.graphContainer{
+    color: red;
+}
+
+/*grapher*/
+
+
