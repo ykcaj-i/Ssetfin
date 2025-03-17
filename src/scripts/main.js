@@ -23,7 +23,7 @@ function calculateTotalReturns(){
         currentAmount = Math.round((currentAmount * ytdGrowth) + (calculateDividends(currentAmount)) + currentAmount) + annualContributions;
         yearEndTotal.push(currentAmount);
     }
-    console.log(yearEndTotal);
+    console.log(yearEndTotal); //console log the array of strings
 }
 
 let count = "1";
@@ -31,7 +31,9 @@ const date = new Date();
 let year = date.getFullYear();
 for(let i = 0; i < yearEndTotal.length; i++){
     document.getElementById('calculatedResult').innerHTML 
-    += `<div class = "result"><span class = "year">year: <span class = "count">${count}</span> | <span class = "fullYear">${year}</span></span><br><br><span class = "numbers">${yearEndTotal[i]}</span><br></div>` ;
+    += `<div class = "result"><span class = "year">year: <span class = "count">${count}</span> | 
+    <span class = "fullYear">${year}</span></span><br><br>
+    <span class = "numbers">${yearEndTotal[i]}</span><br></div>`;
     count++;
     year++;
 }

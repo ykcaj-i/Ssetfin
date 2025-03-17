@@ -6,7 +6,7 @@
     --wizardblue: rgba(117, 76, 192, 0.829);
     --lavender: rgb(90, 103, 223);
     --ssetfish: rgba(101, 73, 175, 0.829);
-    --numbers:  rgb(98, 40, 116);
+    --numbers:  rgb(98, 51, 129);
 }
 
 *{font-family: 'inconsolata'; color: var(--wizardblue);}
@@ -30,7 +30,7 @@ button{
 }
 body{background-color: var(--lightBlack);
 }
-ul{list-style-type: none; font-family: 'courier'; text-align: left; p{ font-size: 80%; font-weight:400; color: var(--ssetfish);}}
+ul{list-style-type: none;  text-align: left; p{ font-size: 80%; font-weight:400; color: var(--ssetfish);}}
 h3{
     background-color: rgba(19, 1, 22, 0.596);
     border-radius: 5px;
