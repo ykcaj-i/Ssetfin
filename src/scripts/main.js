@@ -2,7 +2,7 @@
 
 let yearsInvested, startingAmount, annualContributions, dividendYield, ytdGrowth;
 const yearEndTotal = [];
-yearsInvested = 40; //years i will keep invested 
+yearsInvested = 12; //years i will keep invested 
 startingAmount = 500000; //amount i put in 
 annualContributions = 50000; //amount i will put in every year 
 dividendYield = 0.0025; //dividend yield - 0.25%
