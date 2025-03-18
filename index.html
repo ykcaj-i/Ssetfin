@@ -7,17 +7,44 @@
     <link rel = "stylesheet" href = "/src/stylesheets/styles.css">
     <link rel = "stylesheet" href = "/src/stylesheets/fonts.css">
     <link rel = "stylesheet" href = "/src/stylesheets/graph.css">
+    <link rel = "stylesheet" href = "/src/stylesheets/side_menu.css">
     <!--<script src = "/src/scripts.js"></script>-->
     <script defer src = "/src/scripts/main.js"></script>
     <script defer src = "/src/scripts/graph.js"></script>
+    <script src = "/src/scripts/side_menu.js"></script>
 </head>
 <body>
+    <span class = "button" onclick="openNav()">☰</span>
+    <div id="mySidenav" class="sidenav">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 
+        
+        <br>
+        <a href="#">account</a>
+        <a href="#">settings</a>
+        <a href="#">pro</a>
+        <br>
+        <hr class = "purpleLine">
+        <br><br>
+        <a href="#">investment tracker</a>
+        <a href="#">inflation %</a>
+   
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      
+
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+
+
     <header>
         <div class = "navItem"><h2 class = "title"><span class = "titleBackground">🕶️ssetafin</span></h2></div><div>
+          
     </header>
-    
+   
     <navbar class = "navbar">
-    
         <div class="navItem"><button><h4>ƒ(x)</h4></button></div>
         <div class="navItem"><button><h4>graph</h4></button></div>   
         <div class="navItem"><button><h4>data-vis</h4></button></div> 
@@ -48,7 +75,7 @@
     </div>
  
     <div id = "graphContainer child child3">
-        <div class="containerChild container1"><p>-</p></div>
+        <div class="containerChild container1"></div>
 
 
     </div>

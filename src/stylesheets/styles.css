@@ -6,7 +6,7 @@
     --wizardblue: rgba(117, 76, 192, 0.829);
     --lavender: rgb(90, 103, 223);
     --ssetfish: rgba(101, 73, 175, 0.829);
-    --numbers:  rgb(64, 160, 160);
+    --numbers:  rgb(60, 141, 161);
 }
 
 *{font-family: 'inconsolata'; color: var(--wizardblue);}
@@ -58,7 +58,7 @@ h3{
     column-gap: 1em;
 }
 .result{
-    text-align: center;
+    text-align: left;
     color: var(--deepblue);
     padding: 1px;
     
