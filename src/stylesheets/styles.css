@@ -6,7 +6,7 @@
     --wizardblue: rgba(117, 76, 192, 0.829);
     --lavender: rgb(90, 103, 223);
     --ssetfish: rgba(101, 73, 175, 0.829);
-    --numbers:  rgb(192, 204, 209);
+    --numbers:  rgb(86, 155, 167);
 }
 
 *{font-family: 'inconsolata'; color: var(--wizardblue);}
