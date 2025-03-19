@@ -18,7 +18,6 @@
         cursor: pointer;
         font-weight: 500; 
         border-radius: 25px;
-       
     }
 }
 button{
@@ -37,19 +36,13 @@ h3{
     color: var(--ssetfish);
     text-align: center;
 }
-.parent{display: flex; justify-content: center;}
-    
-  .navbar{
+.parent{display: flex; justify-content: center;}    
+.navbar{
     display: flex;
     justify-content: center;
-  } 
-  .navItem{
-    margin: 1em;
-  }
-.hr0{
-    border: dashed 1px rgb(25, 0, 48);
-}
-
+} 
+.navItem{margin: 1em;}
+.hr0{border: dashed 1px rgb(25, 0, 48);}
 #calculatedResult{
     display:grid;
     grid-template-columns: auto auto auto auto auto;
@@ -61,12 +54,8 @@ h3{
     text-align: left;
     color: var(--deepblue);
     padding: 1px;
-    
 }
-.numbers{
-    color: var(--numbers) !important;
-
-}
+.numbers{color: var(--numbers) !important;}
 .year{
     color: var(--wizardblue);
     background-color: rgba(22, 1, 10, 0.596);
@@ -75,21 +64,10 @@ h3{
     border-radius: 15px;
     padding-bottom: .15em;
     padding-bottom: 1px;
-   
 }
-.fullYear{
-    color: rgb(105, 186, 201);}
-   
-
-
+.fullYear{color: rgb(105, 186, 201);}
 .count{color: rgb(86, 186, 216);}   
-
-
-    
-
 .child{margin: 2px;}
-
-
 .child1{
     padding: 1em;
     text-align: left;
