@@ -62,7 +62,7 @@ h3{
     padding-bottom: .15em;
     padding-bottom: 1px;
 }
-.fullYear{color: rgb(105, 187, 201);}
+.fullYear{color: var(--ssetfish);}
 .count{color: rgb(86, 186, 216);}   
 .child{margin: 2px;}
 .child1{
