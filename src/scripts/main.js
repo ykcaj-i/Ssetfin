@@ -31,8 +31,11 @@ const date = new Date();
 let year = date.getFullYear();
 for(let i = 0; i < yearEndTotal.length; i++){
     document.getElementById('calculatedResult').innerHTML 
-    += `<div class = "result"><span class = "year">year: <span class = "count">${count}</span> | 
-    <span class = "fullYear">${year}</span></span><br><br>
+    += `<div class = "result">
+    <span class = "year">year: 
+        <span class = "count">${count}</span> | 
+            <span class = "fullYear">${year}</span>
+    </span><br><br>
     <span class = "numbers">${yearEndTotal[i]}</span><br></div>`;
     count++;
     year++;
@@ -41,7 +44,7 @@ for(let i = 0; i < yearEndTotal.length; i++){
 
 addComma();
     
-    
+/*    
 function addComma(){
     let replacementNum;
     let x, y, z;
@@ -61,5 +64,13 @@ function addComma(){
         //yearEndTotal[i].push(replacementNum);
     }
 }
+*/
 
+function addComma(){
+    let count = 0;
+    let string
+    for(let i = 0; i < String.length; i++){
 
+        count++;
+    }
+}

@@ -4,13 +4,10 @@
     --shadePurple: rgb(89, 57, 141);
     --deepblue: rgb(88, 226, 236);
     --wizardblue: rgba(117, 76, 192, 0.829);
-    --lavender: rgb(90, 103, 223);
     --ssetfish: rgba(101, 73, 175, 0.829);
-    --numbers:  rgb(171, 231, 241);
+    --numbers:  rgb(102, 178, 201);
 }
-
 *{font-family: 'inconsolata'; color: var(--wizardblue);}
-
 .title{text-align: center; 
     .titleBackground{ 
         font-family: 'unica one' !important;
@@ -55,7 +52,7 @@ h3{
     color: var(--deepblue);
     padding: 1px;
 }
-.numbers{color: var(--numbers) !important;}
+.numbers{color: var(--numbers) !important;} /*background-color:rgb(0, 0, 0); padding-left: 2px; padding-right: 2px;*/
 .year{
     color: var(--wizardblue);
     background-color: rgba(22, 1, 10, 0.596);
@@ -65,7 +62,7 @@ h3{
     padding-bottom: .15em;
     padding-bottom: 1px;
 }
-.fullYear{color: rgb(105, 186, 201);}
+.fullYear{color: rgb(105, 187, 201);}
 .count{color: rgb(86, 186, 216);}   
 .child{margin: 2px;}
 .child1{
