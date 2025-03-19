@@ -2,11 +2,11 @@
 
 let yearsInvested, startingAmount, annualContributions, dividendYield, ytdGrowth;
 const yearEndTotal = [];
-yearsInvested = 12; //years i will keep invested 
-startingAmount = 500000; //amount i put in 
-annualContributions = 50000; //amount i will put in every year 
+yearsInvested = 4; //years i will keep invested 
+startingAmount = 100000; //amount i put in 
+annualContributions = 60000; //amount i will put in every year 
 dividendYield = 0.0025; //dividend yield - 0.25%
-ytdGrowth = 0.10; //yearly growth i expect - 50%
+ytdGrowth = 0.25; //yearly growth i expect - 50%
 
 //so once we have these numbers, we will pass 5 arguments into a function
 calculateTotalReturns();

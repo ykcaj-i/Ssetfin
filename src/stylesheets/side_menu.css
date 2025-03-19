@@ -17,14 +17,14 @@
     padding: 5px 5px 15px 50px;
     text-decoration: none;
     font-size: .95rem;
-    color: rgba(84, 57, 158, 0.829);
+    color: rgba(118, 86, 207, 0.829);
     display: block;
     transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #9b87e4;
+    color: #7d63dd;
     cursor: pointer;
   }
   
@@ -57,4 +57,11 @@
   .purpleLine{
     border: solid 1px rgba(84, 57, 158, 0.137);
     width: 75%;
+  }
+
+  .navTitle{
+    background-color: rgba(19, 1, 22, 0.596);
+    border-radius: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
