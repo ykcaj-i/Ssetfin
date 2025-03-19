@@ -1,11 +1,11 @@
 
 
-let yearsInvested, startingAmount, annualContributions, dividendYield, ytdGrowth;
-const yearEndTotal = [];
+let yearsInvested, startAmount, annualContributions, divYield, ytdGrowth;
+const yearEnd = []; //by year
 yearsInvested = 20; //years i will keep invested 
-startingAmount = 100000; //amount i put in 
+startAmount = 100000; //amount i put in 
 annualContributions = 25000; //amount i will put in every year 
-dividendYield = 0.0025; //dividend yield - 0.25%
+divYield = 0.0025; //dividend yield - 0.25%
 ytdGrowth = 0.10; //yearly growth i expect - 50%
 
 //so once we have these numbers, we will pass 5 arguments into a function
@@ -13,30 +13,30 @@ calculateTotalReturns();
 
 //store the for loop's result into yearEndTotal
 function calculateDividends(currentAmount){
-    let dividendsGains = (dividendYield * currentAmount); 
+    let dividendsGains = (divYield * currentAmount); 
     return dividendsGains;
 }
 
 function calculateTotalReturns(){
-    let currentAmount = startingAmount;   
+    let currentAmount = startAmount;   
     for(let i = 0; i < yearsInvested; i++){ 
         currentAmount = Math.round((currentAmount * ytdGrowth) + (calculateDividends(currentAmount)) + currentAmount) + annualContributions;
-        yearEndTotal.push(currentAmount);
+        yearEnd.push(currentAmount);
     }
-    console.log(yearEndTotal); //console log the array of strings
+    console.log(yearEnd); //console log the array of strings
 }
 
 let count = "1";
 const date = new Date();
 let year = date.getFullYear();
-for(let i = 0; i < yearEndTotal.length; i++){
+for(let i = 0; i < yearEnd.length; i++){
     document.getElementById('calculatedResult').innerHTML 
     += `<div class = "result">
     <span class = "year">year: 
         <span class = "count">${count}</span> | 
             <span class = "fullYear">${year}</span>
     </span><br><br>
-    <span class = "numbers">${yearEndTotal[i]}</span><br></div>`;
+    <span class = "numbers">${yearEnd[i]}</span><br></div>`;
     count++;
     year++;
 }
@@ -67,10 +67,20 @@ function addComma(){
 */
 
 function addComma(){
+    let placeholder; 
+    let count = 0;
+    let comma = ",";
+    for(let i = 0; i < yearEnd.length; i++){ //loop the entire yearEnd array
+        placeholder = yearEnd[i];
+        console.log(`placeholder is ${placeholder}`);
+        
+    }
+    /*
     let count = 0;
     let string
     for(let i = 0; i < String.length; i++){
 
         count++;
     }
+        */
 }
