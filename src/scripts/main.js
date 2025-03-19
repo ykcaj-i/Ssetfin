@@ -68,22 +68,24 @@ function addComma(){
 
 function addComma(){
     let placeholder; 
-    let count = 1;
+    let count = 0;
     let comma = ",";
-    let result;
+    let result = "";
     for(let i = 0; i < yearEnd.length; i++){ //loop the entire yearEnd array
         placeholder = yearEnd[i].toString();
         console.log(`placeholder before reversal is ${placeholder}`);
         placeholder = placeholder.split("").reverse().join("");
         console.log(`placeholder after reversal is ${placeholder}`);
+        
         for(let i = 0; i < placeholder.length; i++){ //loop the element eg : 135250
-            count++;
-            if(count % 3 == 0){
-                let result = placeholder.slice(0, i) + comma + placeholder.slice(i);
-                console.log(result);
+            console.log(`count is ${count}`);
+            if(count % 3 === 0 && count != 0){
+                result = placeholder.slice(0, i) + comma + placeholder.slice(i);
             }
-           
+            count++;
         }
+        console.log(result);
+        count = 0;
     }
     /*
     let count = 0;
