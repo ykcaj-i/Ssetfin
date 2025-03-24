@@ -24,16 +24,24 @@ button{
     margin: 0%;
     border: none;
 }
-body{background-color: var(--lightBlack);
+body{background-color: var(--lightBlack);}
+ul{ 
+    list-style-type: none;  
+    text-align: left; 
+    p{ 
+        font-size: 80%; 
+        font-weight:400; 
+        color: var(--ssetfish);}
 }
-ul{list-style-type: none;  text-align: left; p{ font-size: 80%; font-weight:400; color: var(--ssetfish);}}
 h3{
     background-color: rgba(19, 1, 22, 0.596);
     border-radius: 5px;
     color: var(--ssetfish);
     text-align: center;
 }
-.parent{display: flex; justify-content: center;}    
+.parent{
+    display: flex; 
+    justify-content: center;}    
 .navbar{
     display: flex;
     justify-content: center;
@@ -52,7 +60,10 @@ h3{
     color: var(--deepblue);
     padding: 1px;
 }
-.numbers{color: var(--numbers) !important;} /*background-color:rgb(0, 0, 0); padding-left: 2px; padding-right: 2px;*/
+.numbers{/*background-color:rgb(0, 0, 0); padding-left: 2px; padding-right: 2px;*/
+    color: var(--numbers) !important; 
+    font-family: monospace !important;
+} 
 .year{
     color: var(--wizardblue);
     background-color: rgba(22, 1, 10, 0.596);

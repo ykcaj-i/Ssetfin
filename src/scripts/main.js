@@ -1,12 +1,13 @@
 
-
+//currently the variables are only adjusted and tweaked in js file
 let yearsInvested, startAmount, annualContributions, divYield, ytdGrowth;
 const yearEnd = []; //by year
+const yearEndFormatted = []; //format the array with commas
 yearsInvested = 20; //years i will keep invested 
 startAmount = 100000; //amount i put in 
 annualContributions = 25000; //amount i will put in every year 
 divYield = 0.0025; //dividend yield - 0.25%
-ytdGrowth = 0.10; //yearly growth i expect - 50%
+ytdGrowth = 0.50; //yearly growth i expect - 50%
 
 //so once we have these numbers, we will pass 5 arguments into a function
 calculateTotalReturns();
@@ -24,75 +25,37 @@ function calculateTotalReturns(){
         yearEnd.push(currentAmount);
     }
     console.log(yearEnd); //console log the array of strings
+    formatArray(); // call the comma function
+}
+
+function formatArray(){
+    let temp;
+    
+    for(let i = 0; i < yearEnd.length; i++){
+        temp = yearEnd[i];
+        console.log(`temp before formatting is ${temp}`);
+        temp = temp.toLocaleString()
+        console.log(`temp after formatting is ${temp}`);
+        yearEndFormatted .push(temp);
+      
+    }
+    console.log(yearEndFormatted);
 }
 
 let count = "1";
 const date = new Date();
 let year = date.getFullYear();
-for(let i = 0; i < yearEnd.length; i++){
-    document.getElementById('calculatedResult').innerHTML 
-    += `<div class = "result">
-    <span class = "year">year: 
-        <span class = "count">${count}</span> | 
-            <span class = "fullYear">${year}</span>
-    </span><br><br>
-    <span class = "numbers">${yearEnd[i]}</span><br></div>`;
+for(let i = 0; i < yearEndFormatted .length; i++){
+    document.getElementById('calculatedResult').innerHTML //add html
+    += 
+    `<div class = "result">
+        <span class = "year">year: 
+            <span class = "count">${count}</span> | <span class = "fullYear">${year}</span></span>
+            <br>
+            <br>
+        <span class = "numbers">${yearEndFormatted[i]}</span>
+        <br>
+    </div>`;
     count++;
     year++;
-}
-
-
-addComma();
-    
-/*    
-function addComma(){
-    let replacementNum;
-    let x, y, z;
-    let newArray = [];
-    for(let i = 0; i < yearEndTotal.length; i++){
-        replacementNum = toString(yearEndTotal[i]);
-        console.log(typeof(replacementNum));
-        console.log(replacementNum);
-        let interval = 3;
-        for(let i = 0; i < replacementNum.length; i++){
-            for(let i = 0; i < 3; i++){
-                x = yearEndTotal[i];
-                console.log(`x is ${x}`);
-                newArray.push(x);
-             }
-        }
-        //yearEndTotal[i].push(replacementNum);
-    }
-}
-*/
-
-function addComma(){
-    let placeholder; 
-    let count = 0;
-    let comma = ",";
-    let result = "";
-    for(let i = 0; i < yearEnd.length; i++){ //loop the entire yearEnd array
-        placeholder = yearEnd[i].toString();
-        console.log(`placeholder before reversal is ${placeholder}`);
-        placeholder = placeholder.split("").reverse().join("");
-        console.log(`placeholder after reversal is ${placeholder}`);
-        
-        for(let i = 0; i < placeholder.length; i++){ //loop the element eg : 135250
-            console.log(`count is ${count}`);
-            if(count % 3 === 0 && count != 0){
-                result = placeholder.slice(0, i) + comma + placeholder.slice(i);
-            }
-            count++;
-        }
-        console.log(result);
-        count = 0;
-    }
-    /*
-    let count = 0;
-    let string
-    for(let i = 0; i < String.length; i++){
-
-        count++;
-    }
-        */
 }
