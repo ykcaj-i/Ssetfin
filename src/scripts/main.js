@@ -30,13 +30,12 @@ function calculateTotalReturns(){
 
 function formatArray(){
     let temp;
-    
     for(let i = 0; i < yearEnd.length; i++){
         temp = yearEnd[i];
         console.log(`temp before formatting is ${temp}`);
         temp = temp.toLocaleString()
         console.log(`temp after formatting is ${temp}`);
-        yearEndFormatted .push(temp);
+        yearEndFormatted.push(temp);
       
     }
     console.log(yearEndFormatted);
