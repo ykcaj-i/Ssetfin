@@ -3,15 +3,17 @@
     --lightBlack: #001e30;
     --shadePurple: rgb(216, 202, 238);
     --deepblue: rgb(88, 226, 236);
-    --wizardblue: rgba(97, 76, 192, 0.829);
-    --ssetfish: rgba(101, 73, 175, 0.829); /*make more blue*/
+    --coolPurple: rgb(94, 75, 163);
+    --ssetfish: rgba(73, 34, 109, 0.829); /*make more blue*/
     --numbers:  rgb(51, 165, 194); 
+    --inputValues: rgba(101, 73, 175, 0.829);
+    --blackPurple: rgba(22, 1, 18, 0.596);
 }
-*{font-family: 'inconsolata'; color: var(--wizardblue);}
+*{font-family: 'inconsolata'; color: var(--coolPurple);}
 .title{text-align: center; 
     .titleBackground{ 
         font-family: 'unica one' !important;
-        color: var(--ssetfish);
+        color: var(--coolPurple);
         cursor: pointer;
         font-weight: 500; 
         border-radius: 25px;
@@ -31,12 +33,12 @@ ul{
     p{ 
         font-size: 80%; 
         font-weight:400; 
-        color: var(--ssetfish);}
+        color: var(--coolPurple);}
 }
 h3{
-    background-color: rgba(19, 1, 22, 0.596);
+    background-color: var(--blackPurple);
     border-radius: 5px;
-    color: var(--ssetfish);
+    color: var(--coolPurple);
     text-align: center;
 }
 .parent{
@@ -69,16 +71,16 @@ h3{
     font-size: 0.7rem;
 } 
 .year{
-    color: var(--wizardblue);
-    background-color: rgba(22, 1, 10, 0.596);
+    color: var(--coolPurple);
+    background-color: var(--blackPurple);
     font-family: 'inconsolata';
     padding-left: .25em; padding-right: .25em;
     border-radius: 15px;
 }
-.fullYear{color: var(--ssetfish);}
-.count{color: rgb(86, 186, 216);}   
+.fullYear{color: var(----coolPurple);}
+.count{color: var(--numbers)}   
 .child{margin: 2px;}
-.child1{
+.dashboard{
     padding: 1em;
     text-align: left;
     background-color:  transparent;
@@ -86,7 +88,7 @@ h3{
     width: auto;
 
 }
-.child2{
+.yearChart{
     padding: 1em;
     font-size: 80%;
     text-align: center;

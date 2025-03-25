@@ -52,7 +52,7 @@ for(let i = 0; i < yearEndFormatted .length; i++){
             <span class = "count">${count}</span> | <span class = "fullYear">${year}</span></span>
             <br>
             <br>
-        <span class = "numbers">${yearEndFormatted[i]}</span>
+        <span class = "numbers">$${yearEndFormatted[i]}</span>
         <br>
     </div>`;
     count++;
