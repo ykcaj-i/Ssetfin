@@ -5,7 +5,7 @@
     --deepblue: rgb(88, 226, 236);
     --wizardblue: rgba(117, 76, 192, 0.829);
     --ssetfish: rgba(101, 73, 175, 0.829);
-    --numbers:  rgb(102, 178, 201);
+    --numbers:  rgb(51, 165, 194);
 }
 *{font-family: 'inconsolata'; color: var(--wizardblue);}
 .title{text-align: center; 
@@ -62,7 +62,8 @@ h3{
 }
 .numbers{/*background-color:rgb(0, 0, 0); padding-left: 2px; padding-right: 2px;*/
     color: var(--numbers) !important; 
-    font-family: monospace !important;
+    font-family: 'ibm plex mono' !important;
+    font-size: 0.65rem;
 } 
 .year{
     color: var(--wizardblue);

@@ -7,7 +7,7 @@ yearsInvested = 20; //years i will keep invested
 startAmount = 100000; //amount i put in 
 annualContributions = 25000; //amount i will put in every year 
 divYield = 0.0025; //dividend yield - 0.25%
-ytdGrowth = 0.50; //yearly growth i expect - 50%
+ytdGrowth = 0.10; //yearly growth i expect - 50%
 
 //so once we have these numbers, we will pass 5 arguments into a function
 calculateTotalReturns();
