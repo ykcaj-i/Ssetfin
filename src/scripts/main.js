@@ -49,10 +49,10 @@ for(let i = 0; i < yearEndFormatted .length; i++){
     += 
     `<div class = "result">
         <span class = "year">year: 
-            <span class = "count">${count}</span> | <span class = "fullYear">${year}</span></span>
+            <span class = "count">${count}</span>&nbsp;|&nbsp;<span class = "fullYear">${year}</span></span>
             <br>
             <br>
-        <span class = "numbers">$${yearEndFormatted[i]}</span>
+        <span class = "numbers">$&nbsp;${yearEndFormatted[i]}</span>
         <br>
     </div>`;
     count++;
