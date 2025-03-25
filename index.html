@@ -17,7 +17,7 @@
 
 <!---->
 <span class = "button" onclick="openNav()">☰</span>
-<div id="mySidenav" class="sidenav">
+<nav id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <br>   
         <a href="#" class = "hrefButton"><span class = "navTitle">&nbsp;- User -&nbsp;</span></a>
@@ -30,26 +30,27 @@
         <a href="#" class = "hrefButton"><span class = "navTitle">&nbsp;- Tools -&nbsp;</span></a>
         <a href="#" class = "hrefButton">investment&nbsp;calculator</a>
         <a href="#" class = "hrefButton">inflation&nbsp;rate</a>
-</div>
+</nav>
 <!---->       
       <!-- Use any element to open the sidenav -->
       <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <!---->
 <header>
     <div class = "navItem"><h2 class = "title"><span class = "titleBackground">🕶️ssetfin</span></h2></div>
+    <nav class = "navbar">
+        <div class="navItem"><button><h4>ƒ(x)</h4></button></div>
+        <div class="navItem"><button><h4>graph</h4></button></div>   
+        <div class="navItem"><button><h4>asset-type</h4></button></div>
+        <div class="navItem"><button><h4>export</h4></button></div>  
+    </nav>
 </header>
 <!---->
 <!---->   
-<navbar class = "navbar">
-    <div class="navItem"><button><h4>ƒ(x)</h4></button></div>
-    <div class="navItem"><button><h4>graph</h4></button></div>   
-    <div class="navItem"><button><h4>asset-type</h4></button></div>
-    <div class="navItem"><button><h4>export</h4></button></div>  
-</navbar>
+
 <!---->   
 <br> 
 <!---->
-<div class = "parent">
+<main class = "parent">
     <!---->
     <div class = "child child2">
         <h3>- Approximation By Year -</h3><br>
@@ -68,7 +69,7 @@
         </ul>
     </div>
     <!---->         
-</div>
+</main>
 <!---->
  
     <div id = "graphContainer child child3">
@@ -79,6 +80,9 @@
     <br>
     <br>
     <br>
+<footer class = "footer">
+    <h5 class = "misc">&nbsp;&nbsp;<span class="copyright">&copy</span> 2025 ssetfin <br>all rights reserved</h5>
+</footer>
 
     
 </body>
