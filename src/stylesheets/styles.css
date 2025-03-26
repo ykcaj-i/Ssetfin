@@ -77,7 +77,7 @@ h3{
     padding-left: .25em; padding-right: .25em;
     border-radius: 15px;
 }
-.fullYear{color: var(----coolPurple);}
+.fullYear{color: var(--numbers);}
 .count{color: var(--numbers)}   
 .child{margin: 2px;}
 .dashboard{
