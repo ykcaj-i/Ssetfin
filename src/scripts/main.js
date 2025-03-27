@@ -1,15 +1,16 @@
 
-//currently the variables are only adjusted and tweaked in js file
+/**v.0.1**/
+/**currently the variables are only adjusted and tweaked in js file**/
 let yearsInvested, startAmount, annualContributions, divYield, ytdGrowth;
 const yearEnd = []; //by year
-const yearEndFormatted = []; //format the array with commas
-yearsInvested = 20; //years i will keep invested 
-startAmount = 100000; //amount i put in 
-annualContributions = 25000; //amount i will put in every year 
-divYield = 0.0025; //dividend yield - 0.25%
-ytdGrowth = 0.10; //yearly growth i expect - 50%
+const yearEndFormatted = []; //format the array to be prettier
+yearsInvested = 20; //years invested 
+startAmount = 100000; //starting amount of capital
+annualContributions = 25000; //amount contributted every year
+divYield = 0.0025; //dividend yield / apy interest .. eg - 0.25%
+ytdGrowth = 0.10; //ytd growth (end of year) .. eg - 50% 
 
-//so once we have these numbers, we will pass 5 arguments into a function
+//so once we have these numbers, execute function
 calculateTotalReturns();
 
 //store the for loop's result into yearEndTotal
@@ -32,9 +33,7 @@ function formatArray(){
     let temp;
     for(let i = 0; i < yearEnd.length; i++){
         temp = yearEnd[i];
-        console.log(`temp before formatting is ${temp}`);
         temp = temp.toLocaleString()
-        console.log(`temp after formatting is ${temp}`);
         yearEndFormatted.push(temp);
       
     }
@@ -45,8 +44,7 @@ let count = "1";
 const date = new Date();
 let year = date.getFullYear();
 for(let i = 0; i < yearEndFormatted .length; i++){
-    document.getElementById('calculatedResult').innerHTML //add html
-    += 
+    document.getElementById('calculatedResult').innerHTML += //add html
     `<div class = "result">
         <span class = "year">year: 
             <span class = "count">${count}</span>&nbsp;|&nbsp;<span class = "fullYear">${year}</span></span>
