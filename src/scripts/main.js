@@ -43,7 +43,7 @@ function formatArray(){
 let count = "1";
 const date = new Date();
 let year = date.getFullYear();
-for(let i = 0; i < yearEndFormatted .length; i++){
+for(let i = 0; i < yearEndFormatted.length; i++){
     document.getElementById('calculatedResult').innerHTML += //add html
     `<div class = "result">
         <span class = "year">year: 
