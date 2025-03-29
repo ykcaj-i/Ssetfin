@@ -10,15 +10,16 @@ annualContributions = 25000; //amount contributted every year
 divYield = 0.0025; //dividend yield / apy interest .. eg - 0.25%
 ytdGrowth = 0.10; //ytd growth (end of year) .. eg - 50% 
 
-//so once we have these numbers, execute function
+
 calculateTotalReturns();
 
-//store the for loop's result into yearEndTotal
+//calculate dividends
 function calculateDividends(currentAmount){
     let dividendsGains = (divYield * currentAmount); 
     return dividendsGains;
 }
 
+//primary calculator
 function calculateTotalReturns(){
     let currentAmount = startAmount;   
     for(let i = 0; i < yearsInvested; i++){ 
@@ -30,10 +31,10 @@ function calculateTotalReturns(){
     console.log(yearEndNums);
 }
 
-
-let count = "1";
+//print the nth year count, nth full year, and $ amount
 const date = new Date();
 let year = date.getFullYear();
+let count = "1";
 for(let i = 0; i < yearEnd.length; i++){
     document.getElementById('calculatedResult').innerHTML += //add html
     `<div class = "result">
@@ -41,7 +42,7 @@ for(let i = 0; i < yearEnd.length; i++){
             <span class = "count">${count}</span>&nbsp;|&nbsp;<span class = "fullYear">${year}</span></span>
             <br>
             <br>
-        <span class = "numbers">$&nbsp;${yearEnd[i]}</span>
+        <span class = "numbers">$ ${yearEnd[i]}</span>
         <br>
     </div>`;
     count++;

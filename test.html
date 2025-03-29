@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>---</title>
+    <!--<script src = "/src/scripts.js"></script>-->
+    <script defer src = "/src/scripts/test.js"></script>
+</head>
+<body style = "background-color: rgb(245, 245, 245)">
+    <h1 style = "color: rgb(17, 9, 9)">form</h1>
+    
+    <form action = "src/scripts/test.js" method = "post">
+        <ul style = "list-style: none;">
+            <li>
+                <label for = "user_id">user id: </label>
+                <input type = "text" id = "user_id" name = "user_id"/>
+            </li><br>
+            <li>
+                <label for = "initialInvestment">initial investment: </label>
+                <input type = "text" id = "initialInvestment" name = "initialInvestment"/>
+            </li><br>
+            <li>
+                <label for = "annualContribution">annual contribution: </label>
+                <input type = "text" id = "annualContribution" name = "annualContribution"/>
+            </li>
+            <li><br>
+                <label for = "dividendYield">dividend yield: </label>
+                <input type = "text" id = "dividendYield" name = "dividendYield"/>
+            </li><br>
+            <li>
+                <label for = "ytdGrowth">year-to-date growth: </label>
+                <input type = "text" id = "ytdGrowth" name = "ytdGrowth"/>
+            </li><br>
+        </ul>
+        <p class="button">
+            <button type="submit">submit</button>
+        </p>
+    </form>
+   
+</body>
+
