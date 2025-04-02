@@ -3,7 +3,7 @@
     --lightBlack: #001e30;
     --shadePurple: rgb(216, 202, 238);
     --deepblue: rgb(88, 226, 236);
-    --coolPurple: rgb(94, 75, 163);
+    --coolPurple: rgb(82, 60, 143);
     --ssetfish: rgba(73, 34, 109, 0.829); /*make more blue*/
     --numbers:  rgb(51, 165, 194); 
     --inputValues: rgba(101, 73, 175, 0.829);
@@ -17,6 +17,7 @@
         cursor: pointer;
         font-weight: 500; 
         border-radius: 25px;
+        font-size: 1.65rem;
     }
 }
 button{
