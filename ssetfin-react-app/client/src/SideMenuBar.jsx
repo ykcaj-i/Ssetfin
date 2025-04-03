@@ -1,4 +1,4 @@
-export default function Side_Menu_Bar() {
+export default function SideMenuBar() {
     return (
       <div>
         
