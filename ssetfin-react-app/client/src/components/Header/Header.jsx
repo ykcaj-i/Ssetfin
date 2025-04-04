@@ -1,4 +1,4 @@
-import SideMenuBar from './SideMenuBar.jsx';
+import SideMenuBar from './SideMenuBar/SideMenuBar.jsx';
 import styles from './styles/header.module.css';
 
 export default function Header() {

@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Header from './Header.jsx'; 
-import Footer from './Footer.jsx';
-
+import Header from './components/Header/Header.jsx'; 
+import Footer from './components/Footer/Footer.jsx';
+import styles from './styles/fonts.css';
 
 
 function App() {
@@ -9,8 +9,11 @@ function App() {
 
   return (
     <>
+    <div class = {styles.main}>
       <Header/>
       <Footer/>
+    </div>
+    
     </>
   )
 }
