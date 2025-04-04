@@ -1,3 +1,6 @@
+
 .title{
-    color: rgb(93, 45, 116);
+    font-family: var(--Unica-One);
+    color: var(--title);
 }
+

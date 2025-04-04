@@ -1,0 +1,13 @@
+
+p{
+    font-size: .85rem;
+    color: var(--title);
+}
+
+.copyright{
+    font-family: var(--Inconsolata); /*inconsolata*/
+}
+
+.copy{
+    font-size: 1.25rem;
+}

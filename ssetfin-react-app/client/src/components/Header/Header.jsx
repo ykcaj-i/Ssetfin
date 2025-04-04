@@ -1,5 +1,7 @@
 import SideMenuBar from './SideMenuBar/SideMenuBar.jsx';
-import styles from './styles/header.module.css';
+import styles from './header.module.css';
+
+//import styles from './global-styles/typography.css';
 
 export default function Header() {
   return (

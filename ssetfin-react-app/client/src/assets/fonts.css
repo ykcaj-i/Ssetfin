@@ -1,0 +1,33 @@
+/*GOOGLE FONTS IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kosugi&family=Inconsolata:wght@200..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Orbit&family=Oxygen+Mono&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Questrial&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&family=Reddit+Mono:wght@200..900&family=Rubik+80s+Fade&family=Rubik+Broken+Fax&family=Rubik+Maps&family=Rubik+Maze&family=Rubik+Microbe&family=Rubik+Pixels&family=SUSE:wght@100..800&family=Sulphur+Point:wght@300;400;700&family=Unica+One&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+
+:root{
+    
+    /*STATIC FONTS*/
+    --IBM-Plex-Mono: 'IBM Plex Mono';
+    --Unica-One: 'Unica One';
+    --Inconsolata: 'Inconsolata';
+    --Montserrat-Alternates: 'Montserrat Alternates';
+    --Sulphur-Point: 'Sulphur Point';
+    --Poiret-One: 'Poiret One';
+    --Questrial: 'Questrial';
+    --Rubik-Maze: 'Rubik Maze';
+    --Rubik-Pixels: 'Rubik Pixels';
+    --Rubik-80s-Fade: 'Rubik 80s Fade';
+    --Rubik-Maps: 'Rubik Maps';
+    --Rubik-Microbe: 'Rubik Microbe';
+    --Rubik-Broken-Fax: 'Rubik Broken Fax';
+    --Kosugi: 'Kosugi';
+    --Oxygen-Mono: 'Oxygen Mono';
+    --Zilla-Slab-Highlight: 'Zilla Slab Highlight';
+
+    /*VARIABLE FONTS*/
+    --Red-Hat-Mono: 'Red Hat Mono';
+    --SUSE: 'SUSE';
+    --Urbanist: 'Urbanist';
+    --Caveat: 'Caveat';
+    --Reddit-Mono: 'Reddit Mono';
+    --Playfair-Display: 'Playfair Display';
+
+}
