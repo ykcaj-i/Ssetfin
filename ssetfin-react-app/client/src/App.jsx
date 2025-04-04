@@ -4,8 +4,9 @@ import Main from './components/Main/Main.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
 //global-styles
-import './assets/fonts.css';
-import './assets/colors.css';
+import './assets/styles/index.css'
+import './assets/styles/fonts.css';
+import './assets/styles/colors.css';
 
 function App() {
   const [count, setCount] = useState(0);
