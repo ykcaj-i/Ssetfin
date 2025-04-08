@@ -1,7 +1,7 @@
 //global-styles
-import './global-styles/index.css'
-import './global-styles/fonts.css';
-import './global-styles/colors.css';
+import './styles-global/index.css'
+import './styles-global/fonts.css';
+import './styles-global/colors.css';
 
 //misc
 import { useState } from 'react'

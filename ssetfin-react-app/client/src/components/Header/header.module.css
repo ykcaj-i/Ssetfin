@@ -1,7 +1,9 @@
 .header{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
+
 .title{
     margin: 2rem;
     font-family: var(--Unica-One);
@@ -9,3 +11,4 @@
     font-weight: 500;
     font-size: 1.75rem;
 }
+
