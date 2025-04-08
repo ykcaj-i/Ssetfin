@@ -1,0 +1,18 @@
+
+
+
+.navbar{
+   display: flex;
+   justify-content: center;
+}
+
+.button{
+    margin: 1rem;
+    font-family: var(--Inconsolata);
+    color: var(--title);
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+}

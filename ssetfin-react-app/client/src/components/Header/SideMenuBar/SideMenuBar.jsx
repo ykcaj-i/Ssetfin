@@ -1,8 +1,8 @@
 export default function SideMenuBar() {
     return (
-      <div>
+      <nav class = {StyleSheet.SideMenuBar}>
         
-      </div>
+      </nav>
     
     );
   }

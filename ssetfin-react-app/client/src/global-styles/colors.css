@@ -1,5 +1,4 @@
 
-
 :root{
 
     /*DEFINED GLOBAL COLORS*/
@@ -9,4 +8,7 @@
 
     /*BACKGROUND COLORS*/
     --main-background-color: #001e30;
+
+    /*FONT COLORS*/
+    --button: rgb(42, 88, 119);
 }
