@@ -1,0 +1,11 @@
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.component{
+    margin: 1em;
+}
