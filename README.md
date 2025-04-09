@@ -1,2 +1,2 @@
 # Ssetfin
-a financial asset calculator and visualization app
+a financial asset extrapolator-calculator and d3-powered visualization web app
