@@ -1,4 +1,13 @@
 
 .infoPanel{
-    border: solid 1px rgb(255, 255, 255);
+   
+}
+
+
+.title{
+    color: var(--title);
+    background-color: var(--text-background-color);
+    border-radius: 15px;
+    padding-left: 1em;
+    padding-right: 1em;
 }

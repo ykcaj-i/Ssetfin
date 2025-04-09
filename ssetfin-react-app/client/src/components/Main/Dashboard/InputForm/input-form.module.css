@@ -1,0 +1,34 @@
+.title{
+    color: var(--title);
+    background-color: var(--text-background-color);
+    border-radius: 15px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+
+.list{
+    list-style-type: none;
+    padding: 1em;
+    text-align: left;
+}
+
+.inputForm{
+
+}
+
+.inputBtn:hover{
+    transition: .75;
+    color: rgb(68, 55, 133)
+}
+.inputBtn:hover > .signal{
+    transition: .75;
+    color: rgb(154, 150, 172);
+}
+
+.inputBtn{
+    cursor: pointer;
+}
+
+

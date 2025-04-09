@@ -9,3 +9,10 @@
 .component{
     margin: 1em;
 }
+
+
+*{
+    font-family: var(--Inconsolata);
+}
+
+
