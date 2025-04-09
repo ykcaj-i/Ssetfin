@@ -14,10 +14,6 @@
     text-align: left;
 }
 
-.inputForm{
-
-}
-
 .inputBtn:hover{
     transition: .75;
     color: rgb(68, 55, 133)

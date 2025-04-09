@@ -12,7 +12,7 @@ export default function Header() {
       <SideMenuBar/> 
       <nav>
         <h1 class = {styles.title}>ssetfin</h1>
-        <br></br>
+        <br/>
         <Navbar/>
       </nav>
         
