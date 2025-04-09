@@ -1,4 +1,7 @@
 body{
     background-color: var(--main-background-color) !important;
-    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

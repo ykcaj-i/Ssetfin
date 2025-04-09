@@ -1,0 +1,32 @@
+/*
+.label{
+
+}
+*/
+.form{
+    
+}
+.input{
+    
+}
+
+
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.11);
+    border: none;
+}
+
+.inputBoxElement{
+    border: solid 1px white;
+    padding: none;
+    margin-left: .25em;
+    margin-right: .25em;
+}
+.inputBoxElement p{
+    
+}

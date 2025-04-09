@@ -1,4 +1,7 @@
-import styles from './InputForm.module.css';
+import styles from './InputPanel.module.css';
+
+import MyForm from './MyForm/MyForm';
+
 
 export default function InputForm(){
     return(
@@ -12,6 +15,10 @@ export default function InputForm(){
                     <li><p class = {styles.inputBtn}><span class = {styles.signal}>⦿</span> Year To Date Growth</p></li>
                     <li><p class = {styles.inputBtn}><span class = {styles.signal}>⦿</span> Dividend Yield</p></li>
                 </ul>
+            </div>
+            <br/>
+            <div>
+                <MyForm/>
             </div>
            
         </section>
