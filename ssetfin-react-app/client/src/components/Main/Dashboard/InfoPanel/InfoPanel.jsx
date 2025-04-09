@@ -4,8 +4,8 @@ import FinancialExtrapolator from './FinancialExtrapolator/FinancialExtrapolator
 
 export default function InfoPanel(){
     return(
-        <div class = {styles.infoPanel}>
+        <section class = {styles.infoPanel}>
             <h4 class = {styles.title}>Approximation By Year</h4>
-        </div>
+        </section>
     );
 }

@@ -11,7 +11,7 @@ export default function Header() {
     <header class = {styles.header}>
       <SideMenuBar/> 
       <nav>
-        <h1 class = {styles.title}>aet</h1>
+        <h1 class = {styles.title}>ssetfin</h1>
         <br></br>
         <Navbar/>
       </nav>

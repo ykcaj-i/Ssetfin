@@ -7,9 +7,9 @@ import InputForm from './InputForm/InputForm.jsx';
 
 export default function Dashboard(){
     return(
-        <div class = {styles.dashboard}>
+        <section class = {styles.dashboard}>
             <div class = {styles.component}><InfoPanel/></div>
             <div class = {styles.component}><InputForm/></div>
-        </div>
+        </section>
     );
 }
