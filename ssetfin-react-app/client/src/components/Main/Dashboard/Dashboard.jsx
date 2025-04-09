@@ -1,7 +1,7 @@
 
 import styles from './dashboard.module.css';
 
-import InfoPanel from './OutputPanel/OutputPanel.jsx';
+import OutputPanel from './OutputPanel/OutputPanel.jsx';
 import InputForm from './InputForm/InputForm.jsx';
 
 

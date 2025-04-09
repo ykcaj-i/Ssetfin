@@ -4,12 +4,15 @@
     /*DEFINED GLOBAL COLORS*/
 
     /*FONT COLORS*/
-    --title: rgb(26, 112, 146); 
+    --title: rgb(26, 118, 146); 
 
     /*BACKGROUND COLORS*/
     --main-background-color: #001725;
     --text-background-color: rgb(1, 15, 26);
+    --section-window: rgba(7, 13, 24, 0.164);
 
     /*FONT COLORS*/
     --button: rgb(42, 88, 119);
+
+
 }

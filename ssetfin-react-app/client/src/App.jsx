@@ -18,7 +18,11 @@ function App() {
   return (
     <>
         <Header/>
+        <br/>
+        <br/>
         <Main/>
+        <br/>
+        <br/>
         <Footer/>
     </>
   )

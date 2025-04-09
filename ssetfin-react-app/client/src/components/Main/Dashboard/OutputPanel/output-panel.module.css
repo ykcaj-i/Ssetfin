@@ -1,8 +1,4 @@
-
-
-
-
-.title{
+.sectionTitle{
     color: var(--title);
     background-color: var(--text-background-color);
     border-radius: 15px;
