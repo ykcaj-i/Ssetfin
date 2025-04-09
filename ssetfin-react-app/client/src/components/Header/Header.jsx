@@ -1,4 +1,4 @@
-import styles from './header.module.css';
+import styles from './Header.module.css';
 
 import SideMenuBar from './SideMenuBar/SideMenuBar.jsx';
 import Navbar from './Navbar/Navbar.jsx';
@@ -9,9 +9,9 @@ import Navbar from './Navbar/Navbar.jsx';
 export default function Header() {
   return (
     <header class = {styles.header}>
-      <SideMenuBar/> 
       <nav>
-        <h1 class = {styles.title}>ssetfin</h1>
+        <SideMenuBar/> 
+        <h1 class = {styles.title}>Ssetfin</h1>
         <br/>
         <Navbar/>
       </nav>

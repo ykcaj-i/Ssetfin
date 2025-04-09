@@ -1,5 +1,5 @@
 
-import styles from './main.module.css';
+import styles from './Main.module.css';
 
 import Dashboard from './Dashboard/Dashboard.jsx';
 

@@ -1,10 +1,10 @@
-import styles from './side-menu-bar.module.css';
+import styles from './SideMenuBar.module.css';
 
 export default function SideMenuBar() {
     return (
-      <nav class = {styles.sideMenuBar}>
+      <div class = {styles.sideMenuBar}>
         
-      </nav>
+      </div>
     
     );
   }
