@@ -39,7 +39,7 @@ export default function MyForm(){
                 </span>
             </label>
 
-            <FormComponent/>
+            {/*<FormComponent/>*/}
         </form>
     );
 }

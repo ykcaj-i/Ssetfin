@@ -18,7 +18,7 @@ export default function FormComponent(){
             </form>
             {/*first form*/}
             <form onSubmit={handleSubmit}>
-                <label>Enter your name:
+                <label>Initial Investment:
                     <input 
                         type="text" 
                         value={name}
